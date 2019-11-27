@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz-Time"
+        android:textSize="30dp"
+       android:background="@color/TextView"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10 marks per question">
+
+        </TextView>`
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="Q-1. Where is the statue of liberty situated? ">
+
+        </TextView>
+        <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+           <RadioButton
+               android:id="@+id/btn1rg1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Canada">
+
+           </RadioButton>
+            <RadioButton
+                android:id="@+id/btn2rg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="America">
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/btn3rg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="India">
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/btn4rg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Australia">
+
+            </RadioButton>
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="Q-2. Where is the great wall of china situated? ">
+
+        </TextView>
+        <RadioGroup
+            android:id="@+id/rg2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/btn1rg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Japan">
+
+            </RadioButton>
+            <RadioButton
+
+                android:id="@+id/btn2rg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="China">
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/btn3rg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thailand">
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/btn4rg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indonesia">
+
+            </RadioButton>
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="Q-3. What is Taj Mahal situated? ">
+
+        </TextView>
+        <RadioGroup
+            android:id="@+id/rg3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/btn1rg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="United States">
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/btn2rg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="India">
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/btn3rg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uganda">
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/btn4rg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Australia">
+
+            </RadioButton>
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="Q-4. Where is Niagra fall situated? ">
+
+        </TextView>
+        <RadioGroup
+            android:id="@+id/rg4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/btn1rg4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Canada">
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/btn2rg4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="China">
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/btn3rg4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="India">
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/btn4rg4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Australia">
+
+            </RadioButton>
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="Q-5. Where is Pyramid situated? ">
+
+        </TextView>
+        <RadioGroup
+            android:id="@+id/rg5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/btn1rg5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Canada">
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/btn2rg5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Egypt">
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/btn3rg5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="India">
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/btn4rg5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Austria">
+
+            </RadioButton>
+        </RadioGroup>
+        <Button
+            android:id="@+id/okbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorAccent"
+            android:text="OK">
+
+        </Button>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result:-"
+            android:textSize="20dp">
+
+        </TextView>
+        <EditText
+            android:id="@+id/etres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Result will be shown here"
+            android:editable="false">
+
+        </EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
